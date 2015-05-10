@@ -1,0 +1,135 @@
+/* Write your styles */
+li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.header-title {
+	/*background-color: #5BBD72;*/
+	line-height: 45px;
+	font-size: 1.1em;
+	text-align: center;
+	color: #fff;
+	background: rgba(59,180,242,1);
+}
+
+
+
+#main-content {
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+.province-section {
+	width: 89%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 50px;
+	margin: 0 auto;
+	margin-bottom: 15px;	
+	background-color: #fff;
+	border: none;
+	border-radius: .3857rem;
+	border: 1px solid #DDDDDD;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.04);
+	
+}
+
+.province-section .ribbon {
+	position: relative;
+	width: 50%;
+	font-size: 1.1em;
+	/*font-weight: bold;*/
+	padding: 0px 10px 6px 40px;
+	margin: 0px 10px 10px -66px;
+	color: #000;
+	background-color: #E8E8E8;
+}
+
+.province-section .ribbon:after
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0px;
+	top: 100%;
+	border-width: 5px 8px;
+	border-style: solid;
+	border-color: #D6D6D6 #D6D6D6 transparent transparent;
+}
+
+.province-item {
+	overflow: hidden;
+	margin-left: -50px;
+
+}
+.province-item li {
+	width: 33.333%;
+	float: left;
+	/*margin-b: 10px;*/
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.province-item a {
+	width: 50px;
+	height: 50px;
+	/*margin-top: 10px;*/
+	line-height: 50px;
+	font-size: 14px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	color: #fff;
+	background-color: #5BBD72;
+}
+
+/* detail page */
+#detail-main-content {
+	margin: 0px;
+}
+
+.am-tabs-bd .am-tab-panel {
+	padding: 10px 0px 0px 0px;
+}
+.my-tabs {
+	margin: 0px;
+}
+
+#detail-main-content table {
+	width: 100%;
+}
+#detail-main-content td,th {
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px; 
+	/*width: 14%;*/
+	border: 1px solid #cdcdcd;
+}
+
+#panel-1 td{
+	width: 25%;
+}
+
+#panel-2 th{
+	width: 14%;
+}
+
+th {
+	background-color: #3BB4F2;
+	color: #fff;
+}
+tr:nth-of-type(even) {
+	background-color: #f3f3f3;
+} 
+tr:nth-of-type(odd) {
+	background-color: #ddd;
+}
