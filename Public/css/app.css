@@ -13,10 +13,12 @@ ul {
 .header-title {
 	/*background-color: #5BBD72;*/
 	line-height: 45px;
-	font-size: 1.1em;
+	font-size: 0.9em;
 	text-align: center;
 	color: #fff;
-	background: rgba(59,180,242,1);
+	background: url(../images/logo.png) no-repeat left center #428AC9;
+	background-position: 3% center;
+	background-size: 40px 40px;
 }
 
 
@@ -48,8 +50,8 @@ ul {
 	/*font-weight: bold;*/
 	padding: 0px 10px 6px 40px;
 	margin: 0px 10px 10px -66px;
-	color: #000;
-	background-color: #E8E8E8;
+	color: #428AC9;
+	background-color: #E4EEF9;
 }
 
 .province-section .ribbon:after
@@ -121,6 +123,16 @@ ul {
 
 #panel-2 th{
 	width: 14%;
+}
+#zsfooter {
+	padding: 5px;
+}
+#zsfooter img {
+	width: 100%;
+}
+#zsfooter p{
+	text-align: center;
+	color: #333;
 }
 
 th {
